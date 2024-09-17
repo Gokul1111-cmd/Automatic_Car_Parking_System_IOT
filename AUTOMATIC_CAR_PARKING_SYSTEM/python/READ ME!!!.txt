@@ -1,0 +1,2 @@
+The given python code is a sort of an algorithm to detect the number plates. Change the source in the 6 th line in order to work for various situation.
+I recommend to use a javascript variable and get the output.

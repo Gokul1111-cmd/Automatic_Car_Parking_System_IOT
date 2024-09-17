@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width,
+			initial-scale=1.0" />
+	<link rel="stylesheet" href="payment.css" class="css" />
+</head>
+
+<body>
+	<div class="container">
+		<div class="main-content">
+			<p class="text"></p>
+		</div>
+		<div class="centre-content">
+			<h1 class="price"><span>__/-</span></h1>
+			<p class="course">
+				PAYMENT PAGE
+			</p>
+		</div>
+		<div class="last-content">
+			<button type="button"
+					class="pay-now-btn">
+				Apply Coupons
+			</button>
+			<button type="button"
+					class="pay-now-btn">
+				Pay with Netbanking
+			</button>
+		</div>
+
+		<div class="card-details">
+			<p>Pay using Credit or Debit card</p>
+            <form method="post" action="#" name="contactform" id="contactform">
+                <p>
+                    <label for="name">CARD NUMBER:</label>
+                    <input name="name" type="text" id="fname" required>
+                </p>
+                <p>
+                    <label for="name">EXPIRY DATE:</label>
+                    <input name="name" type="text" id="lname">
+                </p>
+                <p>
+                    <label for="name">CVV NUMBER:</label>
+                    <input name="name" type="text" id="phnumber">
+                </p>
+                <p>
+                    <label for="name">CARD HOLDER NAME:</label>
+                    <input name="name" type="email" id="mail">
+                </p>
+                <input type="submit" class="mainBtn" id="submit" value="SUBMIT" />
+            </form>
+		</div>
+	</div>
+</body>
+<script>
+    function bill()
+    {
+        alert("Payment Received!!!")
+        location.replace("index.html");
+        return false;
+    }
+</script>
+</html>
